@@ -1,52 +1,68 @@
-# 🎯 Interview Question Generator using Gemini AI
+🤖 AI-Powered Interview Question Generator
 
-This project is an AI-powered **Interview Question Generator** designed to revolutionize how interviews are conducted and prepared for. Leveraging Google's Gemini model and LangChain, this tool reads the content of a **PDF (resume, textbook, notes, etc.)** and intelligently generates **relevant interview questions** along with **AI-powered answers**.
+A smart tool that generates contextual interview questions and answers from PDF files like resumes, lecture notes, or job descriptions using Google Gemini AI.  
+Ideal for candidates preparing for interviews, recruiters generating role-specific questions, or educators building assessment sets.
 
----
+![image](https://github.com/user-attachments/assets/6cbedfc2-b26e-4ef2-a628-0cfdb97651df)
 
-![image](https://github.com/user-attachments/assets/4175bd45-d7e9-44f3-be48-50e53ffe191b)
-
-
-## 🚀 Features
-
-- 📄 Upload any PDF (e.g., resume, textbook, job notes)
-- 🤖 Generate interview-style questions using Gemini AI
-- 💬 Instant AI-generated answers for self-preparation or evaluation
-- 🧠 Great for HRs, recruiters, candidates, and educators
-- 📚 Ideal for mock interviews, test prep, or upskilling
 
 ---
 
-## 💼 Use Cases
-
-- **Candidates** can upload their own resumes to simulate likely questions and prepare answers.
-- **Interviewers** can use it to generate on-the-fly custom questions based on a candidate’s profile.
-- **Educators/Trainers** can use it to create assessments from study materials.
-- **HR teams** can streamline technical screening without manual prep.
-
----
-
-## 🛠️ Tech Stack
-
-- [LangChain](https://python.langchain.com)
-- [Google Gemini Pro](https://ai.google.dev)
-- Streamlit (Web UI)
-- FAISS (Vector store for question-answer retrieval)
-- dotenv (For managing API keys securely)
+🚀 Features
+Upload any PDF (resume, study material, etc.)
+Automatically generate relevant questions
+Get precise AI-generated answers
+Built with LangChain, Gemini Pro, and Streamlit
 
 ---
 
-## 🧪 How it Works
+🛠 Installation & Setup
 
-1. Upload a PDF (like a resume or textbook).
-2. The tool processes the content and generates intelligent, contextual questions.
-3. Each question can be clicked to reveal an AI-generated answer.
+### 1. Clone the Repository
 
----
-
-## 📝 Installation
-
-### 1. Clone the Repo
 ```bash
-git clone https://github.com/your-username/interview-generator.git
-cd interview-generator
+git clone https://github.com/yourusername/interview-question-generator.git
+cd interview-question-generator
+````
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set Up Environment
+
+Create a `.env` file in the root directory and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_google_gemini_api_key
+```
+
+### 4. Run the App
+
+```bash
+streamlit run main.py
+```
+
+---
+
+## ✨ Use Cases
+
+* 🧑‍💼 **Candidates** – Upload your resume and practice with AI-generated questions.
+* 🧑‍🏫 **Educators** – Generate quiz-style questions from course PDFs.
+* 🧑‍💻 **Recruiters** – Instantly extract role-based questions from job specs.
+
+---
+
+
+## 📬 Contribute
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## 📄 License
+
+MIT License
+
