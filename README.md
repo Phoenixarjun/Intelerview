@@ -1,4 +1,4 @@
-#🤖 Intelerview - AI-Powered Interview Question Generator
+# 🤖 Intelerview - AI-Powered Interview Question Generator
 
 A smart tool that generates contextual interview questions and answers from PDF files like resumes, lecture notes, or job descriptions using Google Gemini AI.  
 Ideal for candidates preparing for interviews, recruiters generating role-specific questions, or educators building assessment sets.
