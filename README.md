@@ -21,8 +21,8 @@ Built with LangChain, Gemini Pro, and Streamlit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/interview-question-generator.git
-cd interview-question-generator
+git clone https://github.com/Phoenixarjun/Intelerview
+cd Intelerview
 ````
 
 ### 2. Install Dependencies
